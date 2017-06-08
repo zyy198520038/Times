@@ -1,0 +1,146 @@
+
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 30px;
+  border-bottom: 1px solid black;
+  margin:0px 0px;
+}
+.logo h3{
+  color:MediumAquamarine;
+  padding-left: 10px;
+}
+
+.logo{
+  display:flex;
+  align-items: center;
+}
+nav a{
+  text-decoration: underline;
+}
+a{
+  padding-left: 20px;
+}
+h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+.article{
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  margin: 20px 0px;
+}
+.col01{
+  width: 630px;
+}
+.col02{
+  width: 300px;
+}
+.col03{
+  width: 240px;
+}
+
+.col01, .col02, .col03{
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.sec01, .sec02, .sec03, .sec04, .sec05, .sec06{
+  display: flex;
+  flex-direction: column;
+}
+
+.double{
+  display: flex;
+
+}
+.sec01 h1{
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.sec03{
+  margin-left: 20px;
+}
+
+.sec01 .img{
+  background-image: url("img/img-story-main.png");
+  height: 300px;
+  display: flex;
+
+}
+.sec02 .img{
+  background-image: url("img/img-story-1.png");
+  height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.sec03 .img{
+  background-image: url("img/img-story-2.png");
+  height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.sec04 .img{
+  background-image: url("img/img-story-3.png");
+  height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.sec06 h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sec06 li{
+  list-style: none;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 15px 15px;
+  border-bottom: 1px solid black;
+}
+.sec06 ul{
+  padding-left: 0px;
+}
+footer{
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: 0 0;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+}
+
+.links h3{
+  color:white;
+  font-weight: bold;
+  border-right: 2px solid white;
+  padding-right:20px;
+
+}
